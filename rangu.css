@@ -1,0 +1,321 @@
+
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    color: rgb(210, 219, 205);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+nav ul li a:hover {
+    color: #904134;
+}
+.nav-and-content {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 30px;
+    margin: 100px;
+}
+.profile-pic {
+    flex: 1;
+    text-align: left; 
+}
+.profile-pic img {
+    border-radius: 50%;
+    width: 300px;
+    height: 350px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.name {
+    flex: 1;
+    text-align: left; 
+    font-size: 40px;
+    font-weight: bold;
+    max-width: 60%;
+}
+.name p {
+    font-size: x-large;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+section.about {
+    margin-top: 100px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 50px;
+    margin: 100px;
+    
+}
+.about img{
+    border-radius: 55%;
+}
+.about-description img{
+    opacity: 1;
+    align-items: right;
+
+}
+.hii{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.about-heading { 
+    font-size: 2.5rem;  
+    margin-bottom: 350px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.skills h1 {
+    text-align: left;
+    margin-left: 200px;
+    font-size:xx-large;
+    margin-top: 170px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.skills-category h2 {
+    margin-left: 400px;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.skill {
+    margin-left: 400px;
+    margin-bottom: 10px;
+}
+
+.skill label {
+    display: inline-block;
+    width: 150px;
+    font-weight: bold;
+}
+
+progress {
+    width: 300px;
+    height: 20px;
+}
+
+progress::-webkit-progress-bar {
+    background-color: #f3f3f3;
+    border-radius: 5px;
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+progress::-webkit-progress-value {
+    border-radius: 5px;
+}
+progress::-moz-progress-bar {
+    
+    border-radius: 5px;
+}
+.qualification h1{
+    text-align: left;
+    margin-left: 200px;
+    font-size:xx-large;
+    margin-top: 170px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.qualification p{
+    text-align: left;
+    margin-left: 250px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.qualification h1 {
+    text-align: left;
+    margin-left: 200px;
+    font-size: xx-large;
+    margin-top: 170px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.qualification p {
+    text-align: left;
+    margin-left: 250px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.qualification-table {
+    margin-left: 200px;
+    width: 70%;
+    border-collapse: collapse;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+}
+
+.qualification-table th, .qualification-table td {
+    border: 1px solid #fefcfc;
+    padding: 12px 15px;
+    text-align: left;
+}
+
+.qualification-table th { 
+    font-weight: bold;
+}
+.qualification-table tr:hover {
+    background-color: #898282;
+}
+.projects h1 {
+    text-align: left;
+    margin-left: 200px;
+    font-size: xx-large;
+    margin-top: 170px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.projects p {
+    text-align: left;
+    margin-left: 250px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.project-container {
+    display: flex;
+    justify-content: left;
+    gap: 300px;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+.project {
+    text-align: center;
+    max-width: 300px;
+}
+
+.project-image {
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.github-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.github-btn:hover {
+    background-color: #555;
+}
+.contact h1 {
+    text-align: left;
+    margin-left: 200px;
+    font-size: xx-large;
+    margin-top: 170px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.contact-info {
+    margin-left: 200px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+}
+
+.contact-form {
+    margin-left: 200px;
+    margin-top: 20px;
+    width: 60%;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.send-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.send-btn:hover {
+    background-color: #555;
+}
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 50px;
+}
+
+.footer-content p {
+    margin: 5px 0;
+}
+
+.footer-links {
+    margin: 15px 0;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-content p:last-child {
+    margin-top: 15px;
+    font-size: small;
+}
+body {
+    background-color: white;
+    color: black;
+}
+
+footer {
+    background-color: #f1f1f1;
+}
+.dark-mode {
+    background-color: #121212; 
+    color: #ffffff;            
+}
+
+.dark-mode footer {
+    background-color: #1e1e1e; 
+}
+#theme-toggle {
+    cursor: pointer;
+    background: white;
+
+    margin-top: 20px; 
+}
